@@ -9,15 +9,15 @@ echo "► X ◄ To exit starter"
 echo "\n"
 echo -e "Your choise 1,2,X :  "
 read choise
-if [$choise == 1];
+if [ $choise == 1 ];
 then
 	python3 simpleCalcs.py
 
-elif [$choise == 2];
+elif [ $choise == 2 ];
 then
 	python3 ipCalc.py
 		
-elif [$choise == X];
+elif [ $choise == X ];
 then
 	exit
 	
